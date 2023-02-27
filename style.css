@@ -1,0 +1,34 @@
+body,
+html {
+	width: 100%;
+	height: 100%;
+	font-family: Courier;
+	background: url(yes.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+	font-size: 3rem;
+	color: #fbe7d8;
+}
+
+hr {
+	border-color: orangered;
+	border-width: 5px;
+	max-width: 65px;
+}
+
+.buffer {
+	height: 10rem;
+}
+
+.btn {
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.btn-outline-warning:hover {
+	border-width: 4px;
+}
